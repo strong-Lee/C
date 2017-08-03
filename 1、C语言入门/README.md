@@ -4,5 +4,27 @@ C语言旨在创建空间小、速度快的程序。它比其他大多数语言�
 
 ### C语言的工作方式
 
+1. 源代码
+
+```
+  #include <stdio.h>
+  
+  int main()
+  { 
+    puts("C Rocks");
+    return 0;
+  }
+```
+
+2. 编译
+
+```
+  gcc rocks.c -o rocks
+```
+3. 输出
+
+```
+  rocks (在Windows中，这个文件叫rocks.exe)
+```
 
 
