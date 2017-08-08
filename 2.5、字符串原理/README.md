@@ -21,6 +21,28 @@ The girl from Iwo Jima
 
 ### 创建数组的数组
 
+你需要记录几首歌的名字。可以一次用数组记录几件事。但别忘了，字符串本身就是一个数组，也就是说需要创建数组的数组。
+```
+char tracks[][80] = {
+    "I left my heart in harvard med school",
+    "Newark Newark a wonderfull town",
+    "Dancing with a dork",
+    "From here to maternity",
+    "The girl from Iwo Jima"
+}
+```
+也就是说，为了找到某一首歌的名字，可以这样写：
+```
+tracks[4]  ---> "The girl from Iwo Jima"
+```
+如果想读取字符串中的某个字符：
+```
+tracks[4][6]  ---> "r"
+```
 ### 找到包含搜索文本的字符串
+
+酒吧的那伙人给了你一个程序说明说：让用户输入要找的歌曲。循环遍历所有的歌名。如果歌名包含搜索文本，就显示出来。
+
++ 使用string.h
 
 ### 使用strstr()函数
